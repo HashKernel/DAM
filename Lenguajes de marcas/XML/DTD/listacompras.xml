@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacompra SYSTEM "listacompras.dtd">
+<listacompra>
+  <venta>
+    <ventaacredito>
+      <fechafinpago>19/02/2023</fechafinpago>
+      <cantidad>5</cantidad>
+    </ventaacredito>
+  </venta>
+
+  <venta>
+    <ventaacredito>
+        <cantidad>2</cantidad>
+    </ventaacredito>
+  </venta>
+ 
+  <venta>
+    <ventainmediata>
+      <cantidad>8</cantidad>
+      <divisa></divisa>
+    </ventainmediata>
+  </venta>
+</listacompra>

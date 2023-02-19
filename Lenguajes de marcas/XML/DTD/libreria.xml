@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido SYSTEM "libreria.dtd">
+<pedido>
+    <libro titulo="Java 8"></libro>
+    <cuaderno></cuaderno>
+    <libro titulo="HTML y CSS"/>
+    <libro titulo="SQL para Dummies"/>
+    <cuaderno num_hojas="150"/>
+    <lapiz>
+        <numero>2H</numero>
+    </lapiz>
+    <cuaderno num_hojas="250"/>
+    <cuaderno num_hojas="100"/>
+    <lapiz>
+        <numero>2B</numero>
+    </lapiz>
+    <lapiz>
+        <numero>1HB</numero>
+    </lapiz>
+</pedido>
