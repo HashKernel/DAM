@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE productos SYSTEM "productos2.dtd">
+<productos>
+  <producto>
+    <raton>
+      <codigo>1</codigo>
+      <nombre>Logitech</nombre>
+      <descripcion>Wireless mouse</descripcion>
+    </raton>
+  </producto>
+  <producto>
+    <monitor>
+      <codigo>2</codigo>
+      <nombre>BenQ</nombre>
+      <descripcion>144HZ and 4K resolution</descripcion> 
+     </monitor>
+  </producto>
+  <producto>
+    <teclado>
+      <codigo>3</codigo>
+      <nombre>Razer</nombre>
+      <descripcion>RGB keyboard</descripcion> 
+    </teclado>
+  </producto>
+</productos>

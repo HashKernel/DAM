@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="empresa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pedido" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sucursal">
+                <xs:complexType>
+                    <xs:attribute name="codigo">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:length value="8"/>
+                          <xs:pattern value="[A-Z][a-zA-Z0-9]{7}"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:attribute>
+                </xs:complexType>
+              </xs:element> <!-- sucursal -->
+              <xs:element name="direccion" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="trabajador" type="xs:string"/>
+              <xs:element name="fechapedido" type="xs:date"/>
+              <xs:element name="observacion">
+                <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="urgente"/>
+                  <xs:enumeration value="incompleto"/>
+                </xs:restriction>
+              </xs:simpleType>
+              </xs:element> <!-- observacion -->
+              <xs:element name="plazorevision" type="xs:positiveInteger"/>
+              <xs:element name="articulo" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="unidades" type="xs:positiveInteger"/>
+                    <xs:element name="precio" type="xs:decimal"/>
+                    <xs:element name="observaciones" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="codigo">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z]{3}[-][0-9]{3}"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType> 
+              </xs:element> <!-- articulo -->
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element> <!-- pedido -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element> <!-- empresa -->
+</xs:schema>

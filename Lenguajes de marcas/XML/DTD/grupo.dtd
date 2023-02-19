@@ -1,0 +1,11 @@
+<!ELEMENT grupo (alumno,nombreCompleto,nombre,apellidos,fila,edad)>
+<!ATTLIST alumno 
+colorPelo CDATA #REQUIRED>
+
+<!ELEMENT alumno (#PCDATA)>
+
+<!ELEMENT nombreCompleto (nombre,apellidos)>
+<!ELEMENT alumno (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fila (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

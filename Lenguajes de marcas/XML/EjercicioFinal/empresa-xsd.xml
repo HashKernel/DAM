@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="empresa.xsd">
+  <pedido>
+    <sucursal codigo="A1234567"/>
+    <direccion>Calle Nueva</direccion>
+    <direccion>Calle Ollerias</direccion>
+    <trabajador>Luca</trabajador>
+    <fechapedido>2023-02-19</fechapedido>
+    <observacion>urgente</observacion>
+    <plazorevision>4</plazorevision>
+    <articulo codigo="ABC-123">
+      <unidades>3</unidades>
+      <precio>10.3</precio>
+      <observaciones>reacondicionado</observaciones>
+    </articulo>
+    <articulo codigo="DEF-456">
+      <unidades>8</unidades>
+      <precio>39.99</precio>
+      <observaciones>Ninguna</observaciones>
+     </articulo>
+  </pedido>
+</empresa>
