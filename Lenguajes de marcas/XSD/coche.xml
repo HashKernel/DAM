@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehiculos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+ xsi:noNamespaceSchemaLocation="coche.xsd">
+
+  <vehiculo>
+
+    <nombre>Mercedes</nombre>
+
+    <modelo>300SL Gullwing</modelo>
+
+    <fabricacion>
+
+      <inicio>
+
+        <dia>21</dia>
+
+        <mes>Julio</mes>
+
+        <año>1959</año>
+
+      </inicio>
+
+      <fin>
+
+        <dia>9</dia>
+
+        <mes>Agosto</mes>
+
+        <año>1959</año>
+
+      </fin>
+
+    </fabricacion>
+
+    <modificaciones>
+
+      <modificacion>Cambio de motor</modificacion>
+
+      <modificacion>Cambio pedales</modificacion>
+
+      <modificacion>Cambio caja de cambios</modificacion>
+
+      <modificacion>Ajustar</modificacion>  
+
+    </modificaciones>
+
+  </vehiculo>
+
+</vehiculos>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lista.xsd">
+
+
+	<Curso>
+
+		<Titulo>Lenguaje de Marcas</Titulo>
+
+		<nocturno>false</nocturno>
+
+		<Horas>200</Horas>
+
+		<fechaComienzo>2017-03-17</fechaComienzo>
+
+		<horaComienzo>08:30:00</horaComienzo>
+
+		<precio>20.0</precio>
+
+		<precio>30.0</precio>
+
+		<precio>40.0</precio>
+
+		<tema>Introduccion</tema>
+
+		<tema>Desarrollo</tema>
+
+		<telefono>981619900</telefono>
+
+		<telefono>981619800</telefono>
+
+	</Curso>
+
+	<Curso>
+
+		<Titulo>BBDD</Titulo>
+
+		<nocturno>true</nocturno>
+
+		<Horas>210</Horas>
+
+		<fechaComienzo>2017-03-20</fechaComienzo>
+
+		<horaComienzo>09:30:00</horaComienzo>
+
+		<precio>20.0</precio>
+
+		<telefono>981619900</telefono>
+
+		<telefono>981619800</telefono>
+
+	</Curso>
+
+ </Lista>
